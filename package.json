@@ -5,16 +5,9 @@
 	"description" : "High level xmpp client for node.js",
 	"author"      : "Mathieu Lecarme <mathieu@garambrogne.net>",
 	"dependencies": {
-		"node-xmpp": ">= 0.0.4",
+		"node-xmpp": "git://github.com/tananrules/node-xmpp.git",
 		"colors"   : ">= 0.3.0"
 	},
 	"keywords"    : ["xmpp"],
-	"repositories": [{
-		"type": "git",
-		"path": "git://github.com/athoune/node-xmpp-client.git"
-		}],
-	"homepage"    : "http://github.com/athoune/node-xmpp-client",
-	"bugs"        : "http://github.com/athoune/node-xmpp-client/issues",
-	"licenses"    : [{ "type": "GPLv3"}],
 	"engine"      : "node"
 }
