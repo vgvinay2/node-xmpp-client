@@ -1,13 +1,16 @@
 {
-	"name"        : "xmpp-client",
-	"version"     : "0.0.2",
-	"main"        : "./lib/xmpp-client",
-	"description" : "High level xmpp client for node.js",
-	"author"      : "Mathieu Lecarme <mathieu@garambrogne.net>",
-	"dependencies": {
-		"node-xmpp": "git://github.com/tananrules/node-xmpp.git",
-		"colors"   : ">= 0.3.0"
-	},
-	"keywords"    : ["xmpp"],
-	"engine"      : "node"
+  "name": "xmpp-client",
+  "version": "0.0.2",
+  "main": "./lib/xmpp-client",
+  "description": "High level xmpp client for node.js",
+  "author": "Mathieu Lecarme <mathieu@garambrogne.net>",
+  "dependencies": {
+    "colors": ">= 0.3.0",
+    "node-uuid": "^1.4.7",
+    "node-xmpp": "git://github.com/vgvinay2/node-xmpp.git"
+  },
+  "keywords": [
+    "xmpp"
+  ],
+  "engine": "node"
 }
